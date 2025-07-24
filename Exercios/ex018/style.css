@@ -1,0 +1,10 @@
+#prinpal{
+    color: azure;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(to right, black ,red) 
+}
+p{
+    color: aqua;
+}
