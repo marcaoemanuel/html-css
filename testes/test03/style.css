@@ -1,7 +1,7 @@
 
-body{
-    min-height: 100vh;
-    background-color: 
+body {   
+min-height: 100vh;
+background-color: 
 }
 header {
     background-color: black;
@@ -12,6 +12,7 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 45px;
 }
 head > p {
     padding-bottom: 50px;
@@ -28,8 +29,8 @@ head > p {
     padding-left: 30px;
  }
 section.imagem {
-background-color: rgb(51,51,51)
-
+background-color: rgb(51,51,51);
+padding: 5px;
 }
 section.imagem > p {
     background-color: rgb(24, 23, 23);
