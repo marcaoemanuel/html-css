@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chackbox e Radio buton</title>
+</head>
+<body>
+    <form action="" method="post">
+          <p>
+            <input type="radio" name="sexo" id="isexo">Masculino
+            <input type="radio" name="sexo" id="isexo">Feminino
+
+    <p>
+        <label for="inome"></label>
+        <p>Nome:
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="25" >
+        </p>
+        <label for="iemail"></label>
+        <p>Email:
+            <input type="email" name="email" id="iemail" required minlength="5" max="25">
+        </p>
+        <label for="inumero"></label>
+         <p>Celular:
+            <input type="number" name="numero" id="inumero" required minlength="5" maxlength="15">
+         </p>
+         <label for="isenha"></label>
+         <p>Senha:
+            <input type="password" name="senha" id="isenha" required minlength="5" maxlength="15">
+         </p>
+         
+         <p>
+            <label for="ifut"></label>
+            <fieldset>
+                <legend>Jogos favoritos</legend>
+                <input type="checkbox" name="fut" id="ifut">Futebol
+         </p>
+       
+        <input type="submit" value="Proximo">
+        <input type="reset" value="Linpar">
+    </p>
+    
+    </form>
+</body>
+</html>
