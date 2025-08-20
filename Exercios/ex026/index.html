@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="Iest"></label>
+    <p>
+        <select name="Estado" id="iest">
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio De Janeiro</option>
+            <option value="SP">Sao Paulo</option>
+        </select>
+        
+    </p>
+    <p>
+        <label for="iprof"></label>
+        <input type="text" name="prof" id="iprof" list="ltsprof">
+        <datalist id="ltsprof">
+            <option>Professor</option>
+            <option>Desenvolvedor</option>
+            <option>Administrador</option>
+        </datalist>
+    </p>
+    <p>
+        <label for="imsgm">Mensagem:</label>
+        <textarea name="msgm" id="imsgm" cols="30" rows="10"></textarea>
+    </p>
+    <form action="POST|">
+        <p>
+            <input type="submit" value="Proximo">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
