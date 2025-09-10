@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexe-Box</title>
+    <style>
+        div.pai{
+            background-color: lightgray;
+
+            display: flex;
+            flex-direction: column-reverse;
+            
+        }
+        div.filho{
+            background-color: skyblue;
+            border: 1px solid black;
+
+            flex: auto;
+            }
+            #i1{
+                order: -1;
+            }
+            #i2{
+                order: -3;
+            }
+            
+        
+
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho" id="i1">A</div>
+        <div class="filho" id="i2">B</div>
+        <div class="filho" id="i3">C</div>
+        <div class="filho" id="i4">D</div>
+        <div class="filho" id="i5">E</div>
+        <div class="filho" id="i6">F</div>
+        <div class="filho" id="i7">G</div>
+    </div>
+</body>
+</html>
