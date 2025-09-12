@@ -10,11 +10,19 @@
             padding: 0px;
             box-sizing: border-box;
         }
-        header{
+        header > nav > a{
             background-color: darkgray;
-            width: 900px;
+            width: 1200px;
             padding: 10px;
-            height: 120px;
+            height: 120px; 
+
+        
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+            
         }
         h1{
             color: white;
@@ -24,17 +32,21 @@
             background-color: black;
             border-radius: 10px;
             color: rgb(112, 112, 112);
+            
         }
         a:hover{
             background-color: white;
         }
         body{
-            background-color: lightgrey
+            background-color: lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            
         }
         main{
             background-color: white;
             margin: 10px;
             border-radius: 10px;
+            flex:auto;
         }
         
         
